@@ -1,7 +1,7 @@
 # Reference Software for YOLOv3-tiny/YOLOv4-tiny
-This code enables you to perform int8 quantization for YOLOv3-tiny/YOLOv4-tiny and run inference with the quantized model.
-The codes are largely based on yolo2_light(https://github.com/AlexeyAB/yolo2_light/) with slight modifications.
-A test dataset consisting of 229 images is also included (`bin/dataset`).
+  💡This code enables you to perform int8 quantization for YOLOv3-tiny/YOLOv4-tiny and run inference with the quantized model.\
+  🕯The codes are largely based on yolo2_light(https://github.com/AlexeyAB/yolo2_light/) with slight modifications.\
+  ☁️A test dataset consisting of 229 images is also included (`bin/dataset`).
 
 * How to run?
   1. Run `make_cur_list.py` in `dataset` directory. This generates `target.txt` that consists of absolute paths of the images included in the dataset.
