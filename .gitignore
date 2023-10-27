@@ -1,4 +1,5 @@
 **/.DS_Store
+bin/darknet
 bin/interim_result/*
 bin/interim_result_FP32/*
 bin/weights/*
